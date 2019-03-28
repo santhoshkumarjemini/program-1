@@ -1,5 +1,5 @@
 import java.io.*;
-import java.io.*;
+import java.util.*;
 class OddorEven
 {
 int a;
