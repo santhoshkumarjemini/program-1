@@ -5,7 +5,7 @@ class PositiveorNegative
   public static void main(String args[])
    {
      int a;
-     Scanner s1=new Scanner();
+     Scanner s1=new Scanner(System.in);
      System.out.println("Enter the value");
      a=s1.nextInt();
        if(a>0)
