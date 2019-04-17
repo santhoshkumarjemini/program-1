@@ -12,6 +12,7 @@ public class Factorial
    while(i<=n)
    {
     fact=fact*i;
+    i++;
    }
   System.out.println("Factorial is "+fact );
   }
