@@ -20,7 +20,7 @@ public class Armstrongnumber
       }
       if(sum==i)
       {
-       System.out.println(i+" ");
+       System.out.print(i+" ");
       }
      }
   }
