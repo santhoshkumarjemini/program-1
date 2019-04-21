@@ -8,7 +8,7 @@ public class Index
   System.out.println("Enter the input");
   Scanner s=new Scanner(System.in);
   n=s.nextInt();
-  int a[]=new int[];
+  int a[]=new int[n];
   for(int i=0;i<n;i++)
   {
    a[i]=s.nextInt();
