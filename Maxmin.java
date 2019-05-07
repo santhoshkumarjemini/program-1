@@ -6,7 +6,7 @@ public class Maxmin
  {
   int n,min,max;
   System.out.println("Input");
-  Scanner s=nes Scanner(System.in);
+  Scanner s=new Scanner(System.in);
   n=s.nextInt();
   int a[]=new int[n];
    for(int i=0;i<n;i++)
