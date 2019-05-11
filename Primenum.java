@@ -15,14 +15,15 @@ public class Primenum
   }
   else
   {
-   for(int i=2;i<m;i++)
+   for(int i=2;i<=m;i++)
    {
-    if(m%2==0)
+    if(n%i==0)
     {
      System.out.println("No");
      flag=1;
      break;
     }
+   }
     if(flag==1)
     {
      System.out.println("Yes");
@@ -30,4 +31,3 @@ public class Primenum
    }
   }
  }
-}
