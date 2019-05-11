@@ -25,7 +25,7 @@ public class Prime
         break;
        }
       } 
-      if(flag==1)
+      if(flag==0)
        {
          System.out.println(n+ " is prime number");
        }
