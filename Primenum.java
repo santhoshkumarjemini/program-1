@@ -9,7 +9,7 @@ public class Primenum
   Scanner s=new Scanner(System.in);
   n=s.nextInt();
   m=n/2;
-  if(m==0||m==1)
+  if(n==0||n==1)
   {
    System.out.println("No");
   }
@@ -24,7 +24,7 @@ public class Primenum
      break;
     }
    }
-    if(flag==1)
+    if(flag==0)
     {
      System.out.println("Yes");
     }
